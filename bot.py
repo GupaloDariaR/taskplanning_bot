@@ -5,7 +5,7 @@ from aiogram.dispatcher import FSMContext
 from db import BotDB
 from states import BotStates
 
-TOKEN = "6162569814:AAEmGWwchO4TNbsXUHPmCIbLTcVWXlo7Bu8"
+TOKEN = token
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot=bot, storage=MemoryStorage())
